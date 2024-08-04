@@ -40,7 +40,7 @@ section {
 .about {
     background: url('./images/chem-eng.jpg') no-repeat center center;
     background-size: cover;
-    color: white;
+    color: red;
     margin: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -115,13 +115,4 @@ footer {
 }
 .star:nth-child(even) {
     animation-duration: 1.5s;
-}
-.quote {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: #FFD700;
-    font-size: 0.8rem;
-    font-style: italic;
-    z-index: 10;
 }
