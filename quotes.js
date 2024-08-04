@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     displayQuote();
-    setInterval(displayQuote, 10000); // Change quote every 10 seconds
+    setInterval(displayQuote, 5000); // Change quote every 10 seconds
 });
