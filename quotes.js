@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
         "Life is what happens when you're busy making other plans. - John Lennon",
         "Get busy living or get busy dying. - Stephen King",
         "You have within you right now, everything you need to deal with whatever the world can throw at you. - Brian Tracy",
-        "Believe you can and you're halfway there. - Theodore Roosevelt"
-	"I'm gon be forever stepping forwards"
+        "Believe you can and you're halfway there. - Theodore Roosevelt",
+        "I'm gonna be forever stepping forwards. - Unknown"
     ];
 
     const quoteElement = document.createElement('div');
@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     displayQuote();
-    setInterval(displayQuote, 5000); // Change quote every 10 seconds
+    setInterval(displayQuote, 5000); // Change quote every 5 seconds
 });
