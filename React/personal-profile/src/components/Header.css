@@ -1,0 +1,32 @@
+header {
+  background: linear-gradient(135deg, #FFD700, #1E90FF, #8B0000);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  animation: fadeIn 2s;
+}
+
+header p {
+  font-size: 1.2rem;
+  animation: fadeIn 3s;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkling 2s infinite;
+}
+
+@keyframes twinkling {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}

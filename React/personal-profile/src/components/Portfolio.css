@@ -1,0 +1,17 @@
+.about {
+  background: url('../images/chem-eng.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.portfolio {
+  background: url('../images/soft-eng.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.contact {
+  background: url('../images/chem-eng.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}

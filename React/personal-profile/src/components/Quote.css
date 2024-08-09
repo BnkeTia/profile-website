@@ -1,0 +1,9 @@
+.quote {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #FFD700;
+  font-size: 0.8rem;
+  font-style: italic;
+  z-index: 10;
+}
