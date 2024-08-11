@@ -1,17 +1,24 @@
 .about {
-  background: url('../images/chem-eng.jpg') no-repeat center center;
-  background-size: cover;
-  color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../assets/images/chem-eng.jpg') no-repeat center center;
+    background-size: cover;
+    color: #f5f5f5;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    max-width: 1000px;
+    margin: auto;
 }
 
-.portfolio {
-  background: url('../images/soft-eng.jpg') no-repeat center center;
-  background-size: cover;
-  color: white;
+.about h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.contact {
-  background: url('../images/chem-eng.jpg') no-repeat center center;
-  background-size: cover;
-  color: white;
+.about p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
 }
