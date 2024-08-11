@@ -1,0 +1,62 @@
+.blog {
+  background-color: #2c3e50; /* Dark background */
+  color: #f39c12; /* Light text color */
+  padding: 2rem; /* Padding for spacing */
+  min-height: 100vh; /* Full viewport height */
+  box-sizing: border-box; /* Include padding in height calculation */
+}
+
+.blog h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center; /* Center align the title only */
+}
+
+.blog-section {
+  margin-bottom: 2rem;
+  width: 100%; /* Ensure sections take full width */
+  max-width: 800px; /* Max width for better readability */
+  margin: 0 auto; /* Center sections horizontally */
+}
+
+.blog h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog ul {
+  list-style: none;
+  padding: 0;
+}
+
+.blog li {
+  color: #f5f5f5;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog a {
+  color: #f39c12;
+  text-decoration: none;
+}
+
+.blog a:hover {
+  text-decoration: underline;
+}
+
+.go-back-button {
+  display: block; /* Ensures the button is a block-level element */
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #f39c12; /* Accent color */
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center; /* Center text inside button */
+}
+
+.go-back-button:hover {
+  background-color: #e67e22; /* Darker accent color on hover */
+}
