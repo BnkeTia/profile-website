@@ -28,6 +28,8 @@ const Blog = () => {
           <li>Stock Investment for Dummies - Almost done</li>
           <li>Hustle Harder, Hustle Smarter - Done</li>
           <li>1984 by George Orwell - Done (Favorite)</li>
+	  <li>The Business of The 21st Century - yet to read</li>
+	  <li>Nausea by Jean Paul Satre - yet to read..</li>
         </ul>
       </section>
       <section className="blog-section">
