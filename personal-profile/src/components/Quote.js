@@ -7,6 +7,11 @@ const quotes = [
   "Life is what happens when you're busy making other plans. - John Lennon",
   "Get busy living or get busy dying. - Stephen King",
   "You have within you right now, everything you need to deal with whatever the world can throw at you. - Brian Tracy",
+  "I'm gon be forever steppin forwards'. - Lil Baby",
+  "Change is a gradual evolution, we do not change by snapping our fingers and deciding to be someone entirely new. - Atomic Habits",
+  "we change bit by bit, habit by habit. We are continually undegoing microevolutions of the self. - James Clear",
+  "Hell is other people. - Jean Paul Satre",
+  "The process of building habits is actually the process of becoming yourself. - James Clear",
   "Believe you can and you're halfway there. - Theodore Roosevelt"
 ];
 
@@ -20,7 +25,7 @@ const Quote = () => {
     };
 
     displayQuote();
-    const interval = setInterval(displayQuote, 5000);
+    const interval = setInterval(displayQuote, 8000);
 
     return () => clearInterval(interval);
   }, []);

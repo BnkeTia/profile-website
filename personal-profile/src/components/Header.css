@@ -22,11 +22,11 @@ header p {
   width: 2px;
   height: 2px;
   background: white;
-  border-radius: 50%;
+  border-radius: 100%;
   animation: twinkling 2s infinite;
 }
 
 @keyframes twinkling {
   0%, 100% { opacity: 0.5; }
-  50% { opacity: 1; }
+  50% { opacity: 2; }
 }
