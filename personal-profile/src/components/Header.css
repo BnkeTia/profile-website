@@ -19,8 +19,8 @@ header p {
 
 .star {
   position: absolute;
-  width: 2px;
-  height: 2px;
+  width: 5px;
+  height: 5px;
   background: white;
   border-radius: 100%;
   animation: twinkling 2s infinite;

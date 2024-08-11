@@ -46,3 +46,39 @@ footer {
     text-align: center;
     margin-top: auto; /* Ensure footer stays at the bottom */
 }
+/* General responsiveness for all sections */
+@media (max-width: 768px) {
+  .header, .about, .portfolio, .contact, .footer {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .about, .portfolio, .contact, .footer {
+    padding: 2rem 1rem;
+  }
+
+  .blog {
+    padding: 1.5rem;
+  }
+}
+
+/* Specific styles for smaller screens */
+@media (max-width: 480px) {
+  .header h1, .about h2, .portfolio h2, .contact h2, .footer h2 {
+    font-size: 1.5rem;
+  }
+
+  .header, .about, .portfolio, .contact, .footer {
+    padding: 1rem;
+  }
+
+  .blog h2 {
+    font-size: 2rem;
+  }
+}
