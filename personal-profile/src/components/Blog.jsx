@@ -22,14 +22,15 @@ const Blog = () => {
       <section className="blog-section">
         <h3>My Reading List</h3>
         <ul>
-          <li>Rich Dad Poor Dad - Done</li>
-          <li>Atomic Habits - Still reading...</li>
-          <li>Think and Grow Rich - Almost done</li>
-          <li>Stock Investment for Dummies - Almost done</li>
-          <li>Hustle Harder, Hustle Smarter - Done</li>
+          <li>Rich Dad Poor Dad by Robert Kiyosaki - Done</li>
+          <li>Atomic Habits by James Clear - Still reading...</li>
+          <li>Think and Grow Rich by Napoleon Hill - Almost done</li>
+          <li>Stock Investing for Dummies by Paul Mladjenovic - Almost done</li>
+          <li>Hustle Harder, Hustle Smarter by 50 Cent - Done</li>
           <li>1984 by George Orwell - Done (Favorite)</li>
-	  <li>The Business of The 21st Century - yet to read</li>
+	  <li>The Business of The 21st Century by Robert Kiyosaki - yet to read</li>
 	  <li>Nausea by Jean Paul Satre - yet to read..</li>
+	  <li>48 Laws of Power by Robert Greene - Done</li>
         </ul>
       </section>
       <section className="blog-section">

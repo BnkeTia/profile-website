@@ -12,7 +12,8 @@ const quotes = [
   "we change bit by bit, habit by habit. We are continually undegoing microevolutions of the self. - James Clear",
   "Hell is other people. - Jean Paul Satre",
   "The process of building habits is actually the process of becoming yourself. - James Clear",
-  "Believe you can and you're halfway there. - Theodore Roosevelt"
+  "Believe you can and you're halfway there. - Theodore Roosevelt",
+  "Work harder on yourself, than you do on your job. - Jim Rohn"
 ];
 
 const Quote = () => {
