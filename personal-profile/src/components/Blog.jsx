@@ -24,7 +24,7 @@ const Blog = () => {
         <ul>
           <li>Rich Dad Poor Dad by Robert Kiyosaki - Done</li>
           <li>Atomic Habits by James Clear - Still reading...</li>
-          <li>Think and Grow Rich by Napoleon Hill - Almost done</li>
+          <li>Think and Grow Rich by Napoleon Hill - Done(Re-reading)</li>
           <li>Stock Investing for Dummies by Paul Mladjenovic - Almost done</li>
           <li>Hustle Harder, Hustle Smarter by 50 Cent - Done</li>
           <li>1984 by George Orwell - Done (Favorite)</li>
